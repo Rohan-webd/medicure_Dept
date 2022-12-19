@@ -1,0 +1,160 @@
+.Navbar{
+    width: 100%;
+    height: 10vh;
+   background-color: #b33939;
+    display: flex;
+}
+.logo{
+    width: 25%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.logo_img{
+    width: 20%;
+    display: flex;
+    justify-content: right;
+
+}
+.logo_img img{
+    width: 45px;
+    border-radius: 5px;
+}
+.logo_title{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo_title h1{
+    color: #fff;
+    font-size: 2.5rem;
+}
+.links{
+    width: 60%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    }
+    .links ul li{
+        display: inline-block;
+        font-size: 2rem;
+        margin-left: 3rem;
+        color: #fff;
+    }
+.Login_Route{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_link a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
+    margin-right: 4rem;
+
+}
+.login_icon img{
+width: 4rem;
+
+}
+/* Navbar */
+.Search_Container{
+    width: 55%;
+    height: 13rem;
+}
+.prev_pages p{
+    font-size: 1.7rem;
+    color: grey;
+    margin: 1.2rem;
+    font-weight:500;
+}
+.prev_pages p span{
+    color: #000;
+}
+.search_box{
+   display: flex;
+   justify-content: left;
+   align-items: center;
+}
+
+form {
+    display:flex;
+    flex-direction:row;
+    /* border:1px solid grey; */
+  }
+  
+  input {
+    flex-grow:2;
+    border: 1px solid grey;
+    border-right: none;
+    border-radius: 2px;
+    outline: none;
+    height: 4.3rem;
+    width: 53rem;
+    margin-left: 1rem;
+    padding-left: 3rem;
+    display: flex;
+    font-size: 1.7rem;
+    color: rgba(0,0,0,0.7);
+    align-items: center;
+    font-weight: 600;
+    justify-content: center;
+    background-image: url(../Assets/search.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    text-indent: 30px;
+    background-position: 4.17% 50%;
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  
+ .search_box button {
+    border: 1px solid grey;
+    border-left: none;
+    width: 9.2rem;
+    border-radius: 2px;
+    font-size: 1.7rem;
+    background:#218c74;
+    color:white;
+  }
+
+  .Display_Results{
+margin-top: 2rem;
+display: flex;
+align-items: center;
+  }
+  .Display_Results p{
+    font-size: 2rem;
+    margin-left: 1rem;
+  }
+  .Display_Results p span{
+    font-size: 1.5rem;
+    color: grey;
+  }
+  .Display_Results button{
+    margin-left: 1.5rem;
+    width: auto;
+    height: 2.5rem;
+    padding: 0 1rem 0 1rem;
+    background: #218c74;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  .Display_Results button img{
+    width: 8px;
+    margin-left: 0.5rem;
+
+  }
+  .Display_Results a{
+    color: #b33939;
+    text-decoration: none;
+    margin-left: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }

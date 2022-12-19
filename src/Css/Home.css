@@ -1,0 +1,152 @@
+
+  .Home_Container{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    display: flex;
+  }
+  .Left_home{
+    width: 15%;
+    height: auto;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Left_home .Selector{
+    display: flex;
+    flex-direction: column;
+width: 100%;
+height: auto;
+background: #fff;
+margin-bottom: 1rem;
+
+  }
+  .Left_home .Selector .Title{
+    width: 100%;
+    height: 4rem;
+    background: #dfe6e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Title_p{
+    width: 100%;
+    height: 5rem;
+    text-align: center;
+    background: #dfe6e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Left_home .Selector ul li{
+    list-style: none;
+    margin: 1.1rem 0.9rem;
+    font-size: 1.15rem;
+    font-weight: 600;
+
+  }
+  .Left_home .Selector ul li button{
+    text-align: left;
+    width: 100%;
+    font-size:  1.15rem;
+    height: 2.5rem;
+    padding: 0 0.5rem 0 0.5rem;
+    background: #218c74;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  .Left_home .Selector ul li button img{
+    width: 8px;
+
+  }
+  .Main_home{
+    width: 85%;
+    height: 100vh;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+       justify-content: space-evenly;
+  }
+  .grid-item {
+    width: 34rem;
+    height: 42rem;
+    border: 0.1px solid grey;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    margin: 0rem 0rem 1.5rem 1rem;
+  }
+  .Medicine_pic{
+    width: 100%;
+    padding: 0.7rem;
+    height: 24rem;
+    border-radius: 5px;
+  }
+  .Medicine_pic img{
+    width: 100%;
+    height: 24rem;
+    border-radius: 5px;
+  }
+  .Medicine_text{
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem;
+  }
+  .Medicine_text h2{
+    margin-top: 0.9rem;
+    margin-bottom: 0.6rem;
+  }
+  .Medicine_text p{
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    color: rgba(0, 0, 0, 0.55);
+    font-weight: 600;
+  }
+  #Rate{
+    color: #b33939;
+    font-size: 1.6rem;
+    margin-bottom: 1.7rem;
+  }
+  #Rate span{
+    color: grey;
+    font-size: 1.2rem;
+  }
+  #Strt_line{
+    height:1px;
+    border-width:0;
+    color:gray;
+    background-color:gray
+
+  }
+.contact_supp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+
+}
+.contact_supp img{
+    width: 3rem;
+    height: 3rem;
+    transform: translate(0,0.4rem);
+}
+.contact_supp p{
+    font-size: 1.8rem;
+    margin-left: 1.1rem;
+    color: #218c74;
+    font-weight: bold;
+}
+.bottm_St{
+    width: 100%;
+    height: 1.6rem;
+    background-color: #b33939;
+}
+
